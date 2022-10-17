@@ -100,3 +100,14 @@ header a:hover {
     width: 300px;
     opacity: 1;
 }
+
+/* CONTACT SECTION */
+#contact {
+    height: 200px;
+}
+
+/* FOOTER */
+footer p {
+    margin-left: 20px;
+    text-align: left;
+}
