@@ -4,12 +4,20 @@ html {
     color: seashell;
     background: black;
     opacity: 0.9;
+    text-align: center;
 }
+
+/* HEADER */
 header {
     display: flex;
     justify-content: space-between;
     height: 69px;
     border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 99%;
+    margin: auto;
+    background: black;
 }
 header img {
     height: 50px;
@@ -28,4 +36,23 @@ header a {
 }
 header a:hover {
     text-decoration: none;
+}
+
+/* MISSION SECTION */
+#mission {
+    background: url("../images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mission div {
+    background: black;
+    width: 100%;
 }
