@@ -56,3 +56,23 @@ header a:hover {
     background: black;
     width: 100%;
 }
+
+/* FEATURED TEA SECTION */
+#featured-tea {
+    width: 1000px;
+    margin: auto;
+}
+#featured-tea #cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#featured-tea img {
+    width: 300px;
+    height: 200px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+#featured-tea h4 {
+    margin-top: 0;
+}
