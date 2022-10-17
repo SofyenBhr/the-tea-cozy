@@ -62,7 +62,7 @@ header a:hover {
     width: 1000px;
     margin: auto;
 }
-#featured-tea #cards {
+#featured-tea #tea-cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -75,4 +75,28 @@ header a:hover {
 }
 #featured-tea h4 {
     margin-top: 0;
+}
+
+/* LOCATIONS SECTION */
+#locations {
+    background: url("../images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -70px;
+    width: 1200px;
+    margin: auto;
+    height: 500px;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+#locations-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+#locations-cards div {
+    background: black;
+    margin-right: 40px;
+    width: 300px;
+    opacity: 1;
 }
